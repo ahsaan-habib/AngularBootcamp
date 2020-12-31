@@ -1,0 +1,9 @@
+.parentdiv  div:nth-child(1){
+	color: blue;
+}
+.parentdiv  div:nth-child(2){
+	color: red;
+}
+body div:nth-child(2){
+	color: green;
+}

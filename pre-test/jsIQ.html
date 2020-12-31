@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+
+</head>
+<body>
+<label>
+	<input type="text" id="number1" value="7">
+</label>
+
+<label>
+	<input type="text" id="number2" value="5">
+</label>
+</body>
+
+	<script>
+
+		
+			var number1 = document.getElementById('number1').value;
+			var number2 = document.getElementById('number2').value;
+
+			sumNumber(number1, number2);
+
+			function sumNumber(number1, number2){
+				var total = 15 - number1 + number2;
+				console.log(typeof(total));
+				console.log(total);
+			}
+
+
+
+		// for ( let i = 0 ; i<5 ; i++){
+			
+		// 	window.setTimeout(() => {
+		// 		methodOne(i)
+		// 	}, 1000);
+		// }
+
+		// function methodOne(i){
+		// 	console.log(i);
+		// }
+		
+
+		// var counter =0;
+
+		// for ( let i = 0 ; i<5 ; i++){
+		// 	counter++;
+		// 	window.setTimeout(methodOne, 1000);
+		// }
+
+		// function methodOne(){
+		// 	console.log(counter);
+		// }
+	</script>
+
+</html>
