@@ -1,1 +1,31 @@
-<p>landing works! hello/p>
+<div class="container-fluid text-center">
+    <!-- Title -->
+    <div class="container text-center my-4 pb-4">
+        <div class="display-4 mb-2">Angular Bootcamp Jan-2021</div>
+        <p class="lead">
+            In this Angular Bootcamp January 2021, we are going to learn how to make professional web application
+            development.We will start from the begining level but we will take our level at any enterprise level
+            software development knowledge.
+        </p>
+    </div>
+
+    <!-- content -->
+    <div class="container-fluid">
+        <div class="card-deck">
+
+            <div class="card border-0 shadow-sm mb-4">
+                <app-card [data] = "htmlData"></app-card>
+            </div>
+
+            <div class="card border-0 shadow-sm mb-4">
+                <app-card [data] = "jsData"></app-card>
+            </div>
+
+            <div class="card border-0 shadow-sm mb-4">
+                <app-card [data] = "angularData"></app-card>
+            </div>
+
+        </div>
+    
+    </div>
+</div>

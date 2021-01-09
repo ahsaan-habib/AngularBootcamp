@@ -8,8 +8,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
 import { SupportComponent } from './pages/support/support.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-import { HeaderComponent } from './templates/layout/header/header.component';
-import { FooterComponent } from './templates/layout/footer/footer.component';
+import { HeaderComponent } from './common/components/header/header.component';
+import { FooterComponent } from './common/components/footer/footer.component';
+import { CardComponent } from './shared/components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './templates/layout/footer/footer.component';
     SupportComponent,
     PageNotFoundComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
