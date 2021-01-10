@@ -13,17 +13,17 @@
     <div class="container-fluid">
         <div class="card-deck">
 
+             <div class="card border-0 shadow-sm mb-4"  *ngFor="let card of cardList">
+                <app-card [data] = "card"></app-card>
+            </div>
+            <!--
             <div class="card border-0 shadow-sm mb-4">
-                <app-card [data] = "htmlData"></app-card>
+                <app-card [data] = "cardList[1]"></app-card>
             </div>
 
             <div class="card border-0 shadow-sm mb-4">
-                <app-card [data] = "jsData"></app-card>
-            </div>
-
-            <div class="card border-0 shadow-sm mb-4">
-                <app-card [data] = "angularData"></app-card>
-            </div>
+                <app-card [data] = "cardList[2]"></app-card>
+            </div> -->
 
         </div>
     
