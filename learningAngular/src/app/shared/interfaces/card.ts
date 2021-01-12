@@ -3,4 +3,5 @@ export interface Card {
     count?: number;
     frequent?: string;
     body?: string;
+    premium?: boolean;
 }
