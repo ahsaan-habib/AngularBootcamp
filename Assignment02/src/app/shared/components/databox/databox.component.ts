@@ -8,7 +8,6 @@ import { Card, Databox } from '../../interfaces';
 })
 export class DataboxComponent implements OnInit {
 
-  // @Input() info!: Databox; 
   @Input() cardList: Card[] = [];  @Input() cardTitle = '';
 
 

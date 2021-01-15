@@ -10,15 +10,6 @@ import {  Card,  Databox } from 'src/app/shared/interfaces';
 })
 export class LandingComponent implements OnInit {
 
-
-  // public studentCardList: Card[];
-  // public teacherCardList: Card[];
-
-  // public studentTitle : Databox["cardTitle"] = "All Students";
-  // public teacherTitle : Databox["cardTitle"] = "All Teachers";
-
-  // public studentList : Databox["cardList"] = this.getCardList(false);
-  // public teacherList : Databox["cardList"] = this.getCardList(true);
   
   public studentInfo: Databox = {
     cardTitle: "All Students", cardList : this.getCardList(false) 
@@ -27,13 +18,8 @@ export class LandingComponent implements OnInit {
     cardTitle: "All Teachers", cardList : this.getCardList(true) 
   }
 
-  
 
   constructor() { 
-
-    // this.studentCardList = this.getCardList(false);
-    // this.teacherCardList = this.getCardList(true);
-
   }
 
   ngOnInit(): void {
