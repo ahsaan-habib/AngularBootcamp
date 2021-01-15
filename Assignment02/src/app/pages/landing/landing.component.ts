@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Data } from '@angular/router';
 import {  Card,  Databox } from 'src/app/shared/interfaces';
 
 
