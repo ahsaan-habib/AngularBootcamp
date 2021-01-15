@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Card } from 'src/app/shared/interfaces';
+import { Data } from '@angular/router';
+import {  Card,  Databox } from 'src/app/shared/interfaces';
 
 
 @Component({
@@ -9,13 +10,29 @@ import { Card } from 'src/app/shared/interfaces';
 })
 export class LandingComponent implements OnInit {
 
-  public studentCardList: Card[];
-  public teacherCardList: Card[];
+
+  // public studentCardList: Card[];
+  // public teacherCardList: Card[];
+
+  // public studentTitle : Databox["cardTitle"] = "All Students";
+  // public teacherTitle : Databox["cardTitle"] = "All Teachers";
+
+  // public studentList : Databox["cardList"] = this.getCardList(false);
+  // public teacherList : Databox["cardList"] = this.getCardList(true);
+  
+  public studentInfo: Databox = {
+    cardTitle: "All Students", cardList : this.getCardList(false) 
+  }
+  public teacherInfo: Databox = {
+    cardTitle: "All Teachers", cardList : this.getCardList(true) 
+  }
+
+  
 
   constructor() { 
 
-    this.studentCardList = this.getCardList(false);
-    this.teacherCardList = this.getCardList(true);
+    // this.studentCardList = this.getCardList(false);
+    // this.teacherCardList = this.getCardList(true);
 
   }
 

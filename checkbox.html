@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox style</title>
+    <style>
+        .checkmark {
+            border: 2px solid rgb(58, 112, 35);
+            border-radius: 2px;
+            height: 20px;
+            width: 20px;
+            margin: 20px;
+        }
+        .active{
+            position: relative;
+            height: 20px;
+            width: 20px;
+            background-color: rgb(58, 112, 35);
+            
+        }
+        .active::after{
+            position: absolute;
+            content: '';
+            display: block;
+            width: 6px;
+            height: 12px;
+            left: 5px;
+            top: 0px;
+            border: solid #fff;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="checkmark">
+
+    </div>
+    
+    <div class="checkmark active">
+    
+    </div>
+    
+</body>
+</html>
