@@ -1,0 +1,27 @@
+{
+  "serviceResult": {
+    "success": true,
+    "message": "",
+    "messageTechnical": ""
+  },
+  "data": [
+    {
+      "title": "Anique 22",
+      "count": 1,
+      "frequency": "English",
+      "text": "Great at English. Always does better in the class. Advance level of knowledge."
+    },
+    {
+      "title": "Anita",
+      "count": 2,
+      "frequency": "Math",
+      "text": "Great at math. Doing great and trying to be super in math. She is currently trying to be superior."
+    },
+    {
+      "title": "Rosemary",
+      "count": 1,
+      "frequency": "Science",
+      "text": "Science? She always like practical. She is collecting some items from Great desert of California."
+    }
+  ]
+}

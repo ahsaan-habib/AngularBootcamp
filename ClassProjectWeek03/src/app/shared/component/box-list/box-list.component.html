@@ -1,0 +1,6 @@
+<h3 class="font-weight-normal text-center mt-5">{{title}}</h3>
+<div class="card-deck">
+  <div class="card shadow-sm mb-4" *ngFor="let card of cardList">
+    <app-card [data]="card"></app-card>
+  </div>
+</div>
