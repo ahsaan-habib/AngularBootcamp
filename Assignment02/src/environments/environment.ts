@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url : {
+    getStudentList: '../json/get-student-list.json',
+    getTeacherList: '../json/get-teacher-list.json'
+  }
 };
 
 /*

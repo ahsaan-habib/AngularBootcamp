@@ -1,7 +1,6 @@
 export interface Card {
-    name?: string;
+    title?: string;
     count?: number;
-    subject?: string;
-    body?: string;
-    isTeacher?: boolean;
+    frequency?: string;
+    text?: string;
 }

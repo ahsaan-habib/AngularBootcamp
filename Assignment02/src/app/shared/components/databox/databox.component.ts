@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Card, Databox } from '../../interfaces';
+import { Card } from '../../interfaces';
 
 @Component({
   selector: 'app-databox',
