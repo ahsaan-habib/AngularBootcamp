@@ -1,0 +1,1 @@
+This project is combined of Angular Assignment 02 and week 03 class project practice. 
