@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 30vw;
+    border: 7vw solid black;
+    border-radius: 50%;
+}
+.success{
+    margin-right: 20px;
+    border-color: #3c942d;
+    color: #3c942d;
+}
+.failed{
+    border-color: #ae2b0f;
+    color: #ae2b0f;
+}
+.wrap p{
+    font-size: 5vw;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+}
+.wrap p:nth-child(2){
+    font-weight: bolder;
+}
