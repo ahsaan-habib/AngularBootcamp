@@ -1,0 +1,27 @@
+{
+  "serviceResult": {
+    "success": true,
+    "message": "",
+    "messageTechnical": ""
+  },
+  "data": [
+    {
+      "title": "Mahabub",
+      "count": 1,
+      "frequency": "English",
+      "text": "A great teacher to teach English. He is keeping students busy as much as possible. Sometime students fail to complete his homework."
+    },
+    {
+      "title": "Paresh",
+      "count": 2,
+      "frequency": "Math",
+      "text": "All students like him. Some students doesn't do their home work at all. But the teacher is above of them. He is happy for doing nothing."
+    },
+    {
+      "title": "Janid",
+      "count": 1,
+      "frequency": "Science",
+      "text": "He is very active for his class. He always try to show something to his student but sometimes it isn't possible for him to do that."
+    }
+  ]
+}

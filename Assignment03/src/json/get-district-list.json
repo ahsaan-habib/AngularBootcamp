@@ -1,0 +1,471 @@
+{
+  "serviceResult": {
+    "success": true,
+    "message": "",
+    "messageTechnical": ""
+  },
+  "data": [
+    {
+      "name": "Barguna",
+      "division": "Barishal",
+      "established": 1984,
+      "population": 892000,
+      "areaSqKm": 1939
+    },
+    {
+      "name": "Barishal",
+      "division": "Barishal",
+      "established": 1797,
+      "population": 2515000,
+      "areaSqKm": 2785
+    },
+    {
+      "name": "Bhola",
+      "division": "Barishal",
+      "established": 1984,
+      "population": 1946000,
+      "areaSqKm": 3403
+    },
+    {
+      "name": "Jhalokati",
+      "division": "Barishal",
+      "established": 1984,
+      "population": 710000,
+      "areaSqKm": 749
+    },
+    {
+      "name": "Barguna",
+      "division": "Barishal",
+      "established": 1984,
+      "population": 892000,
+      "areaSqKm": 1939
+    },
+    {
+      "name": "Patuakhali",
+      "division": "Barishal",
+      "established": 1969,
+      "population": 1596000,
+      "areaSqKm": 3221
+    },
+    {
+      "name": "Pirojpur",
+      "division": "Barishal",
+      "established": 1984,
+      "population": 1277000,
+      "areaSqKm": 1308
+    },
+    {
+      "name": "Bandarban",
+      "division": "Chittagong",
+      "established": 1981,
+      "population": 405000,
+      "areaSqKm": 4479
+    },
+    {
+      "name": "Brahmanbaria",
+      "division": "Chittagong",
+      "established": 1984,
+      "population": 2954000,
+      "areaSqKm": 1927
+    },
+    {
+      "name": "Chandpur",
+      "division": "Chittagong",
+      "established": 1984,
+      "population": 2514000,
+      "areaSqKm": 1704
+    },
+    {
+      "name": "Chittagong",
+      "division": "Chittagong",
+      "established": 1666,
+      "population": 7913000,
+      "areaSqKm": 5283
+    },
+    {
+      "name": "Comilla",
+      "division": "Chittagong",
+      "established": 1790,
+      "population": 6003000,
+      "areaSqKm": 3585
+    },
+    {
+      "name": "Cox's Bazar",
+      "division": "Chittagong",
+      "established": 1984,
+      "population": 2382000,
+      "areaSqKm": 2495
+    },
+    {
+      "name": "Feni",
+      "division": "Chittagong",
+      "established": 1984,
+      "population": 1496000,
+      "areaSqKm": 928
+    },
+    {
+      "name": "Khagrachhari",
+      "division": "Chittagong",
+      "established": 1983,
+      "population": 639000,
+      "areaSqKm": 2700
+    },
+    {
+      "name": "Lakshmipur",
+      "division": "Chittagong",
+      "established": 1984,
+      "population": 1798000,
+      "areaSqKm": 1456
+    },
+    {
+      "name": "Noakhali",
+      "division": "Chittagong",
+      "established": 1821,
+      "population": 3232000,
+      "areaSqKm": 3601
+    },
+    {
+      "name": "Rangamati",
+      "division": "Chittagong",
+      "established": 1983,
+      "population": 620000,
+      "areaSqKm": 6116
+    },
+    {
+      "name": "Dhaka",
+      "division": "Dhaka",
+      "established": 1772,
+      "population": 12518000,
+      "areaSqKm": 1464
+    },
+    {
+      "name": "Faridpur",
+      "division": "Dhaka",
+      "established": 1815,
+      "population": 1989000,
+      "areaSqKm": 2073
+    },
+    {
+      "name": "Gazipur",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 3548000,
+      "areaSqKm": 1800
+    },
+    {
+      "name": "Dhaka",
+      "division": "Dhaka",
+      "established": 1772,
+      "population": 12518000,
+      "areaSqKm": 1464
+    },
+    {
+      "name": "Gopalganj",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 1218000,
+      "areaSqKm": 1490
+    },
+    {
+      "name": "Kishoreganj",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 3029000,
+      "areaSqKm": 2689
+    },
+    {
+      "name": "Madaripur",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 1212000,
+      "areaSqKm": 1145
+    },
+    {
+      "name": "Manikganj",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 1447000,
+      "areaSqKm": 1379
+    },
+    {
+      "name": "Munshiganj",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 1503000,
+      "areaSqKm": 955
+    },
+    {
+      "name": "Narayanganj",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 3074000,
+      "areaSqKm": 700
+    },
+    {
+      "name": "Narshingdi",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 2315000,
+      "areaSqKm": 1141
+    },
+    {
+      "name": "Rajbari",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 1091000,
+      "areaSqKm": 1119
+    },
+    {
+      "name": "Sariatpur",
+      "division": "Dhaka",
+      "established": 1984,
+      "population": 1202000,
+      "areaSqKm": 1182
+    },
+    {
+      "name": "Tangail",
+      "division": "Dhaka",
+      "established": 1969,
+      "population": 3750000,
+      "areaSqKm": 3414
+    },
+    {
+      "name": "Bagherhat",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 1461000,
+      "areaSqKm": 3959
+    },
+    {
+      "name": "Chuadanga",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 1123000,
+      "areaSqKm": 1177
+    },
+    {
+      "name": "Jessore",
+      "division": "Khulna",
+      "established": 1781,
+      "population": 2742000,
+      "areaSqKm": 2567
+    },
+    {
+      "name": "Jhenaidah",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 1756000,
+      "areaSqKm": 1961
+    },
+    {
+      "name": "Khulna",
+      "division": "Khulna",
+      "established": 1882,
+      "population": 2294000,
+      "areaSqKm": 4394
+    },
+    {
+      "name": "Kushtia",
+      "division": "Khulna",
+      "established": 1947,
+      "population": 1933000,
+      "areaSqKm": 1601
+    },
+    {
+      "name": "Magura",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 913000,
+      "areaSqKm": 1049
+    },
+    {
+      "name": "Meherpur",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 652000,
+      "areaSqKm": 716
+    },
+    {
+      "name": "Narail",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 715000,
+      "areaSqKm": 990
+    },
+    {
+      "name": "Satkhira",
+      "division": "Khulna",
+      "established": 1984,
+      "population": 1973000,
+      "areaSqKm": 3858
+    },
+    {
+      "name": "Jamalpur",
+      "division": "Mymensingh",
+      "established": 1978,
+      "population": 2265000,
+      "areaSqKm": 2032
+    },
+    {
+      "name": "Mymensingh",
+      "division": "Mymensingh",
+      "established": 1787,
+      "population": 5042000,
+      "areaSqKm": 4363
+    },
+    {
+      "name": "Netrokona",
+      "division": "Mymensingh",
+      "established": 1984,
+      "population": 2207000,
+      "areaSqKm": 2810
+    },
+    {
+      "name": "Sherpur",
+      "division": "Mymensingh",
+      "established": 1978,
+      "population": 1334000,
+      "areaSqKm": 1364
+    },
+    {
+      "name": "Bogra",
+      "division": "Rajshahi",
+      "established": 1821,
+      "population": 3370000,
+      "areaSqKm": 2920
+    },
+    {
+      "name": "Joipurhat",
+      "division": "Rajshahi",
+      "established": 1983,
+      "population": 909000,
+      "areaSqKm": 965
+    },
+    {
+      "name": "Naogaon",
+      "division": "Rajshahi",
+      "established": 1984,
+      "population": 2576000,
+      "areaSqKm": 3436
+    },
+    {
+      "name": "Natore",
+      "division": "Rajshahi",
+      "established": 1984,
+      "population": 1696000,
+      "areaSqKm": 1896
+    },
+    {
+      "name": "Chapainawabganj",
+      "division": "Rajshahi",
+      "established": 1984,
+      "population": 1647000,
+      "areaSqKm": 1703
+    },
+    {
+      "name": "Pabna",
+      "division": "Rajshahi",
+      "established": 1832,
+      "population": 2497000,
+      "areaSqKm": 2372
+    },
+    {
+      "name": "Rajshahi",
+      "division": "Rajshahi",
+      "established": 1772,
+      "population": 2573000,
+      "areaSqKm": 2407
+    },
+    {
+      "name": "Sirajganj",
+      "division": "Rajshahi",
+      "established": 1984,
+      "population": 3072000,
+      "areaSqKm": 2498
+    },
+    {
+      "name": "Dinajpur",
+      "division": "Rangpur",
+      "established": 1786,
+      "population": 2980000,
+      "areaSqKm": 3438
+    },
+    {
+      "name": "Gaibandha",
+      "division": "Rangpur",
+      "established": 1984,
+      "population": 2349000,
+      "areaSqKm": 2179
+    },
+    {
+      "name": "Kurigram",
+      "division": "Rangpur",
+      "established": 1984,
+      "population": 2050000,
+      "areaSqKm": 2296
+    },
+    {
+      "name": "Lalmonirhat",
+      "division": "Rangpur",
+      "established": 1984,
+      "population": 1249000,
+      "areaSqKm": 1241
+    },
+    {
+      "name": "Nilphamari",
+      "division": "Rangpur",
+      "established": 1984,
+      "population": 1820000,
+      "areaSqKm": 1580
+    },
+    {
+      "name": "Panchagarh",
+      "division": "Rangpur",
+      "established": 1984,
+      "population": 981000,
+      "areaSqKm": 1405
+    },
+    {
+      "name": "Rangpur",
+      "division": "Rangpur",
+      "established": 1772,
+      "population": 2866000,
+      "areaSqKm": 2368
+    },
+    {
+      "name": "Thakurgaon",
+      "division": "Rangpur",
+      "established": 1984,
+      "population": 1380000,
+      "areaSqKm": 1810
+    },
+    {
+      "name": "Habiganj",
+      "division": "Sylhet",
+      "established": 1984,
+      "population": 2059000,
+      "areaSqKm": 2637
+    },
+    {
+      "name": "Moulvibazar",
+      "division": "Sylhet",
+      "established": 1984,
+      "population": 1902000,
+      "areaSqKm": 2799
+    },
+    {
+      "name": "Sunamganj",
+      "division": "Sylhet",
+      "established": 1984,
+      "population": 2443000,
+      "areaSqKm": 3670
+    },
+    {
+      "name": "Sylhet",
+      "division": "Sylhet",
+      "established": 1782,
+      "population": 5316000,
+      "areaSqKm": 3490
+    }
+  ]
+}
