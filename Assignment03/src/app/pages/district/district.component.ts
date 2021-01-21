@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DistrictInfo, Table} from '../../shared/interfaces';
+import {DistrictInfo} from '../../shared/interfaces';
 import {DistrictService} from '../../common/services';
 
 @Component({
@@ -8,6 +8,8 @@ import {DistrictService} from '../../common/services';
   styleUrls: ['./district.component.css']
 })
 export class DistrictComponent implements OnInit {
+
+  // public districtInfo: DistrictInfo[] = []
 
   public districtInfo: DistrictInfo[] = [];
 

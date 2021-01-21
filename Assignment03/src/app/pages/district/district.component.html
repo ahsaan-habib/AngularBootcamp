@@ -4,25 +4,6 @@
   </div>
 
   <div class="container mt-4">
-    <table class="table table-striped table-hover">
-      <thead>
-      <tr>
-        <th scope="col">SL</th>
-        <th scope="col">Name</th>
-        <th scope="col">Division</th>
-        <th scope="col">Population</th>
-        <th scope="col">Area (sq.km)</th>
-      </tr>
-      </thead>
-      <tbody>
-          <tr *ngFor="let info of districtInfo">
-            <td>{{districtInfo.indexOf(info)+1}}</td>
-            <td>{{info.name}}</td>
-            <td>{{info.division}}</td>
-            <td>{{info.population}}</td>
-            <td>{{info.areaSqKm}}</td>
-          </tr>
-      </tbody>
-    </table>
+    <app-table [data]="districtInfo"></app-table>
   </div>
 </div>

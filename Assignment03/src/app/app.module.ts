@@ -14,7 +14,6 @@ import { DataboxComponent } from './shared/components/databox/databox.component'
 import {DistrictService, HttpService, StudentService, TeacherService, UrlService} from './common/services';
 import { HttpClientModule } from '@angular/common/http';
 import { TableComponent } from './shared/components/table/table.component';
-import { TableDataComponent } from './shared/components/table-data/table-data.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import { TableDataComponent } from './shared/components/table-data/table-data.co
     CardComponent,
     DataboxComponent,
     TableComponent,
-    TableDataComponent
   ],
   imports: [
     BrowserModule,
