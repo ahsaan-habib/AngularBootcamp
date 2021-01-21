@@ -11,8 +11,10 @@ import { DistrictComponent } from './pages/district/district.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { CardComponent } from './shared/components/card/card.component';
 import { DataboxComponent } from './shared/components/databox/databox.component';
-import { HttpService, StudentService, TeacherService, UrlService } from './common/services';
+import {DistrictService, HttpService, StudentService, TeacherService, UrlService} from './common/services';
 import { HttpClientModule } from '@angular/common/http';
+import { TableComponent } from './shared/components/table/table.component';
+import { TableDataComponent } from './shared/components/table-data/table-data.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +26,16 @@ import { HttpClientModule } from '@angular/common/http';
     DistrictComponent,
     PageNotFoundComponent,
     CardComponent,
-    DataboxComponent
+    DataboxComponent,
+    TableComponent,
+    TableDataComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [HttpService, UrlService, StudentService, TeacherService],
+  providers: [HttpService, UrlService, StudentService, TeacherService, DistrictService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dadbac68-9e70-49b2-9068-c1cbca8396c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/learningAngular/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/learningAngular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/footer/footer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/header/header.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/header/header.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/header/header.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningAngular/src/app/templates/layout/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment03/src/app/pages/landing/landing.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment03/src/app/pages/landing/landing.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment03" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -46,6 +38,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610218107982</updated>
       <workItem from="1610218130664" duration="536000" />
+      <workItem from="1611167263790" duration="327000" />
+      <workItem from="1611167804110" duration="356000" />
     </task>
     <servers />
   </component>

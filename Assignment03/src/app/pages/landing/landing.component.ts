@@ -9,15 +9,12 @@ import { Databox } from 'src/app/shared/interfaces';
 })
 export class LandingComponent implements OnInit {
 
-
-
-  
   public studentInfo: Databox = {
-    cardTitle: "All Students", cardList : [] 
-  }
+    cardTitle: 'All Students', cardList : []
+  };
   public teacherInfo: Databox = {
-    cardTitle: "All Teachers", cardList : []
-  }
+    cardTitle: 'All Teachers', cardList : []
+  };
 
   constructor(private studentService: StudentService, private teacherService: TeacherService) {
     this.setStudentList();
@@ -50,48 +47,4 @@ export class LandingComponent implements OnInit {
     });
   }
 
-
-
-
-
-
-
-
-
-
-
-  // public studentInfo: Databox = {
-  //   cardTitle: "All Students", cardList : this.getCardList(false)
-  // }
-  // public teacherInfo: Databox = {
-  //   cardTitle: "All Teachers", cardList : this.getCardList(true)
-  // }
-
-  // // constructor(private studentService: StudentService, private teacherService: TeacherService) {
-  // //   this.setStudentList();
-  // //   this.setTeacherList();
-  // // }
-  
-  // constructor(){
-    
-  // }
-
-
-  // ngOnInit(): void {
-  // }
-
-  // private getCardList(teacherStatus: boolean) :Card[]{
-  //   let allCard : Card[] = [
-  //   {title: 'Habib' , count: 3, frequency: 'English', isTeacher: false, text: 'We will learn english'},
-  //   {title: 'Sobuj' , count: 2, frequency: 'Math', isTeacher: false, text: 'We will learn Math'},
-  //   {title: 'Sobuj' , count: 2, frequency: 'Math', isTeacher: false, text: 'We will learn Math'},
-  //  ];
-
-  //   allCard.push({title: 'Swopon' , count: 3, frequency: 'Math', isTeacher: true,  text: 'I will teach Math. and more'});
-  //   allCard.push({title: 'Shuvo' , count: 1, frequency: 'English',isTeacher: true, text: 'I will teach English. and more'});
- 
-  //   return allCard.filter(data=>{
-  //     return data.isTeacher === teacherStatus;
-  //   });
-  // }
 }

@@ -8,7 +8,7 @@ import { PeopleInfo } from '../../interfaces';
 })
 export class CardComponent implements OnInit {
 
-  @Input() data!: PeopleInfo; 
+  @Input() data!: PeopleInfo;
 
   constructor() { }
 
