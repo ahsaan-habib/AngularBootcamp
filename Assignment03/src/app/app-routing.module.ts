@@ -7,7 +7,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 
 const routes: Routes = [
 
-  {path: 'landing' , component:LandingComponent},
+  {path: 'landing' , component: LandingComponent},
   {path: 'about' , component: AboutComponent},
   {path: 'district', component: DistrictComponent},
   {path: '', redirectTo: '/landing', pathMatch: 'full'},

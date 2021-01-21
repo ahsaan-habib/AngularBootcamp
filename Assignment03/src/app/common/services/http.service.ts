@@ -11,16 +11,15 @@ export class HttpService{
     public get(url: string, params?: Obj): Promise<any>{
 
         const buildUrl = (params !== undefined) ? url + '?' + this.urlService.paramsToUrl(params) : url ;
-        
+
         const promise = new Promise( (resolve, reject) => {
             const req = this.http.get(buildUrl);
-      
 
             req.subscribe(
-                data =>{
+                data => {
                     resolve(data);
                 },
-                error =>{
+                error => {
                     reject(error);
                 },
                 () => {

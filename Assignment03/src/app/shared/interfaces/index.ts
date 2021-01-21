@@ -1,4 +1,3 @@
-export {Card} from './card';
 export {Databox} from './databox';
 export {Obj} from './obj';
 export {PeopleInfo} from './people-info';
