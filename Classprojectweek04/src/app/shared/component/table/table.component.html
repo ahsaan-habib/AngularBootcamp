@@ -1,0 +1,27 @@
+<table class="table table-hover table-striped table-bordered">
+  <thead>
+  <tr>
+    <th></th>
+    <th>SL</th>
+    <th>Name</th>
+    <th>Division</th>
+    <th>Established</th>
+    <th>Population</th>
+    <th>Area(sq.km)</th>
+    <th>Density(sq.km)</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr *ngFor="let district of districtList; index as sl">
+    <td class="tdDelete"><i class="fas fa-minus-circle" (click)="deleteRow(sl)"></i></td>
+    <td>{{sl+1}}</td>
+    <td>{{district.name}}</td>
+    <td>{{district.division}}</td>
+    <td>{{district.established}}</td>
+    <td>{{district.population | bdLocal }}</td>
+    <td>{{district.areaSqKm}}</td>
+    <td>{{district.density}}</td>
+  </tr>
+  </tbody>
+</table>

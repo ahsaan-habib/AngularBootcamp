@@ -1,0 +1,6 @@
+<main class="container">
+
+  <h5 class="display-4 text-center py-4">Districts of Bangladesh: {{numberOfDistrict}}</h5>
+
+<app-table [districtList]="districtList" (rowRemoved)="reCount($event)"></app-table>
+</main>
