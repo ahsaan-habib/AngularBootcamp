@@ -1,0 +1,7 @@
+<h3 class="h3 font-weight-normal mb-4">{{cardTitle}}</h3>
+<div class="row">
+    <div class="col-12 col-sm-4 mb-4" *ngFor="let card of cardList">
+        <app-card [data] = "card" class="card h-100 border-0 shadow-sm mx-1 "></app-card>
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+<div class="container-fluid text-center mb-4 pb-4 district-page">
+  <div class="container text-center my-4 pb-4">
+    <div class="display-4 mb-2">District List of Bangladesh ({{numberOfDistrict}})</div>
+  </div>
+  <div class="container mt-4">
+    <app-table
+      [data]="districtInfo"
+      (rowRemoved)="reCount($event)"
+      [showAction]="true"
+      [headerClass]="'bg-success text-white'"
+    ></app-table>
+  </div>
+
+  <ng-container *ngIf="deleteDistrictInfo.length>0">
+
+    <div class="container text-center my-4 pb-4">
+      <div class="display-4 mb-2">Deleted District List of Bangladesh ({{numberOfDeletedDistrict}})</div>
+    </div>
+    <div class="container mt-4">
+      <app-table
+        [data]="deleteDistrictInfo"
+        (rowRestore)="restoreFunc($event)"
+        [showAction]="false"
+        [headerClass]="'bg-danger text-white'"
+      ></app-table>
+    </div>
+
+  </ng-container>
+</div>

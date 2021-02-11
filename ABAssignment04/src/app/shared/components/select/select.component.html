@@ -1,0 +1,8 @@
+<mat-form-field class="d-block p-0" appearance="fill">
+  <mat-label class="lead pb-1 mx-auto select-label">{{labelData}}</mat-label>
+  <mat-select [(value)]="selectedData">
+    <mat-option></mat-option>
+    <mat-option [value]="option.value" *ngFor="let option of data">{{ option.viewValue }}</mat-option>
+  </mat-select>
+</mat-form-field>
+<p>You selected: {{selectedData}}</p>

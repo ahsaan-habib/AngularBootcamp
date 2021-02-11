@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>{{data.title}}</h1>
+<div mat-dialog-content>
+  <p>{{data.body}}</p>
+</div>
+<div class="d-table mt-4 ml-auto" mat-dialog-actions>
+  <button class="btn-sm px-4 mr-4 shadow-sm"  [ngClass]="data.yesBtnClass" [mat-dialog-close]="'yes'">Yes</button>
+  <button class="btn-sm btn-secondary px-4 shadow-sm"  (click)="onNoClick()" >No</button>
+</div>

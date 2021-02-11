@@ -1,0 +1,9 @@
+.tdDelete,.tdRestore{
+  cursor: pointer;
+}
+.tdDelete:hover{
+  color: red !important;
+}
+.tdRestore:hover{
+  color: limegreen !important;
+}

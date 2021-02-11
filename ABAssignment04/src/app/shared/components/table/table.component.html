@@ -1,0 +1,26 @@
+<table class="table table-striped table-hover">
+  <thead>
+    <tr [ngClass]="headerClass">
+      <th></th>
+      <th scope="col">SL</th>
+      <th scope="col">Name</th>
+      <th scope="col">Division</th>
+      <th scope="col">Population</th>
+      <th scope="col">Area (sq.km)</th>
+      <th scope="col">Density(sq.km)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let info of data; index as sl" >
+      <td *ngIf="showAction else elseBlock" class="tdDelete text-danger"><i class="fas fa-minus-circle" (click)="deleteRow(sl)"></i></td>
+      <ng-template #elseBlock><td class="tdRestore text-success"><i class="fas fa-plus-circle" (click)="restoreRow(sl)"></i></td></ng-template>
+      <td>{{sl+1}}</td>
+      <td>{{info.name}}</td>
+      <td>{{info.division}}</td>
+      <td>{{info.population | bdLocal }}</td>
+      <td>{{info.areaSqKm}}</td>
+      <td>{{info.density}}</td>
+    </tr>
+  </tbody>
+</table>
